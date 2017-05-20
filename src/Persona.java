@@ -8,7 +8,7 @@
  *
  * @author FAMILIA
  */
-public class Persona {
+public abstract class Persona {
     protected String Nombre; 
     protected String Apellido;
     protected double Salario;

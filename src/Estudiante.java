@@ -11,7 +11,7 @@
 public class Estudiante extends Persona{
     private char Estatuto;
 
-    public Estudiante(String Nombre, String Apellido, double Salario) {
+    public Estudiante(String Nombre, String Apellido, double Salario, char Estatuto) {
         super(Nombre, Apellido, Salario);
         this.Estatuto = Estatuto;
     }

@@ -11,8 +11,8 @@
 public class Personal extends Empleado{
     private String Titulo; 
 
-    public Personal(String Titulo, String Nombre, String Apellido, double Salario) {
-        super(Nombre, Apellido, Salario);
+    public Personal(String Titulo, String Nombre, String Apellido, double Salario, int Oficina, String fechaCont) {
+        super(Nombre, Apellido, Salario, Oficina, fechaCont);
         this.Titulo = Titulo;
     }
 

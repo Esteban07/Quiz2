@@ -11,8 +11,8 @@
 public class Facultad extends Empleado{
     private char Rango;
 
-    public Facultad(String Nombre, String Apellido, double Salario) {
-        super(Nombre, Apellido, Salario);
+    public Facultad(String Nombre, String Apellido, double Salario, int Oficina, String fechaCont, char Rango) {
+        super(Nombre, Apellido, Salario, Oficina, fechaCont);
         this.Rango = Rango;
     }
 
