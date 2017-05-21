@@ -14,9 +14,9 @@ package Objetos;
 public abstract class Persona {
     protected String Nombre; 
     protected String Apellido;
-    protected double Salario;
+    protected int Salario;
 
-    public Persona(String Nombre, String Apellido, double Salario) {
+    public Persona(String Nombre, String Apellido, int Salario) {
         this.Nombre = Nombre;
         this.Apellido = Apellido;
         this.Salario = Salario;
@@ -38,11 +38,11 @@ public abstract class Persona {
         this.Apellido = Apellido;
     }
 
-    public double getSalario() {
+    public int getSalario() {
         return Salario;
     }
 
-    public void setSalario(double Salario) {
+    public void setSalario(int Salario) {
         this.Salario = Salario;
     }
     

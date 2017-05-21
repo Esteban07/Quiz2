@@ -15,7 +15,7 @@ package Objetos;
 public class Personal extends Empleado{
     private String Titulo; 
 
-    public Personal(String Titulo, String Nombre, String Apellido, double Salario, int Oficina, String fechaCont) {
+    public Personal(String Titulo, String Nombre, String Apellido, int Salario, int Oficina, String fechaCont) {
         super(Nombre, Apellido, Salario, Oficina, fechaCont);
         this.Titulo = Titulo;
     }
@@ -49,7 +49,7 @@ public class Personal extends Empleado{
     }
 
     @Override
-    public double getSalario() {
+    public int getSalario() {
         return Salario;
     }
     

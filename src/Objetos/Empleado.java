@@ -14,7 +14,7 @@ public abstract class Empleado extends Persona{
     protected int Oficina;
     protected String fechaCont;
 
-    public Empleado(String Nombre, String Apellido, double Salario, int Oficina, String fechaCont) {
+    public Empleado(String Nombre, String Apellido, int Salario, int Oficina, String fechaCont) {
         super(Nombre, Apellido, Salario);
         this.Oficina = Oficina;
         this.fechaCont = fechaCont;

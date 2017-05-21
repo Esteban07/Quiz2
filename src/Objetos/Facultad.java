@@ -13,18 +13,18 @@ package Objetos;
  * @author FAMILIA
  */
 public class Facultad extends Empleado{
-    private char Rango;
+    private String Rango;
 
-    public Facultad(String Nombre, String Apellido, double Salario, int Oficina, String fechaCont, char Rango) {
+    public Facultad(String Nombre, String Apellido, int Salario, int Oficina, String fechaCont, String Rango) {
         super(Nombre, Apellido, Salario, Oficina, fechaCont);
         this.Rango = Rango;
     }
 
-    public char getRango() {
+    public String getRango() {
         return Rango;
     }
 
-    public void setRango(char Rango) {
+    public void setRango(String Rango) {
         this.Rango = Rango;
     }
 
@@ -49,7 +49,7 @@ public class Facultad extends Empleado{
     }
 
     @Override
-    public double getSalario() {
+    public int getSalario() {
         return Salario;
     }
     

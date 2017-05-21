@@ -13,18 +13,18 @@ package Objetos;
  * @author FAMILIA
  */
 public class Estudiante extends Persona{
-    private char Estatuto;
+    private String Estatuto;
 
-    public Estudiante(String Nombre, String Apellido, double Salario, char Estatuto) {
+    public Estudiante(String Nombre, String Apellido, int Salario, String Estatuto) {
         super(Nombre, Apellido, Salario);
         this.Estatuto = Estatuto;
     }
 
-    public char getEstatuto() {
+    public String getEstatuto() {
         return Estatuto;
     }
 
-    public void setEstatuto(char Estatuto) {
+    public void setEstatuto(String Estatuto) {
         this.Estatuto = Estatuto;
     }
 
@@ -39,7 +39,7 @@ public class Estudiante extends Persona{
     }
 
     @Override
-    public double getSalario() {
+    public int getSalario() {
         return Salario;
     }
     
